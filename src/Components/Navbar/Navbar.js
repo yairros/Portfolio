@@ -6,7 +6,7 @@ const Navbar = () => {
       <ul>
           <a href="https://www.linkedin.com/in/yair-rosenschein-511a67225/" target="_blank">Linkedin profile{" "}
           <i className="fa-brands fa-linkedin"></i>{" "}
-          </a>
+          </a>{" "}
           <a href="https://github.com/yairros" target="_blank">Github account{" "}
           <i className="fa-brands fa-github"></i>{" "}
           </a>
