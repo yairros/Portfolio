@@ -4,7 +4,7 @@ import snake from "../../assets/snake.jpg";
 import winely from "../../assets/winely.jpg";
 import stock from "../../assets/stock.jpeg";
 import fighter from "../../assets/fighter.jpg";
-import w5 from "../../assets/w5.jpg";
+import petlify from "../../assets/petlify.png";
 import w6 from "../../assets/w6.jpg";
 const Works = () => {
   return (
@@ -31,10 +31,12 @@ const Works = () => {
           <img src={fighter} alt="fighter" />
          </a>
         </div>
-        {/* <div className="works-item">
-          <img src={w5} alt="work5" />
-        </div>
         <div className="works-item">
+         <a href="https://adoptify-server.onrender.com" target="_blank" >
+          <img src={petlify} alt="petlify" />
+         </a>
+        </div>
+        {/* <div className="works-item">
           <img src={w6} alt="work6" />
         </div> */}
       </div>
