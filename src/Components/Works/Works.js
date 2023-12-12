@@ -5,7 +5,7 @@ import winely from "../../assets/winely.jpg";
 import stock from "../../assets/stock.jpeg";
 import fighter from "../../assets/fighter.jpg";
 import petlify from "../../assets/petlify.png";
-import w6 from "../../assets/w6.jpg";
+import jobly from "../../assets/jobly.png";
 const Works = () => {
   return (
     <div className="works-container">
@@ -32,13 +32,15 @@ const Works = () => {
          </a>
         </div>
         <div className="works-item">
-         <a href="https://adoptify-server.onrender.com" target="_blank" >
+          <a href="https://adoptify-server.onrender.com" target="_blank" >
           <img src={petlify} alt="petlify" />
          </a>
         </div>
-        {/* <div className="works-item">
-          <img src={w6} alt="work6" />
-        </div> */}
+        <div className="works-item">
+          <a href="https://jobly-mu36.onrender.com" target="_blank" >
+          <img src={jobly} alt="jobly" />
+         </a>
+        </div>
       </div>
     </div>
   );
